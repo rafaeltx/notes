@@ -1,0 +1,38 @@
+Strings
+	- not char or characters
+	- FQCN: Java.lang.String
+	- String literal: 0 or more characters
+		- ex: String str = "Roll tide";
+		- ex: "Roll"+"Tide" = "Roll Tide"
+
+	* Immutable: cannot be changed
+		- stored in string pool
+
+	* String pool
+		- collection of unique String
+		- Literals stored in heap memory
+
+		- some string are common and used multiple times
+		- String str = "dog";
+		- compiler will search for "dog" and creaters reference to it if it exists. If not then it will create a new literal
+
+	* String ApI
+		- methods in string class for working with strings
+
+	* String Builder
+		- Mutable sequence of characters
+		- not thread safe
+
+	* String Buffer
+		- mutable
+		- thread safe
+		- slow
+
+
+
+
+
+
+
+
+
